@@ -19,7 +19,12 @@ export class ProductListComponent {
     // const session = this.sessionService.getSessionId();
     // const res = this.https.get(`cart/${session}`);
     // if (res) {
-    //   this.cartItems = cart;
+    //   this.cartItems = res;
+    // }
+
+    // const res = this.https.get(`products`);
+    // if (res) {
+    //   this.products = res;
     // }
 
     // using local storage to store cart items
