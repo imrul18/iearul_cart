@@ -36,4 +36,7 @@ export class CartComponent {
   decreaseItem(product: Product): void {
     this.cartItems.push(product);
   }
+  goToCheckout() {
+    this.router.navigate(['/checkout']);
+  }
 }

@@ -115,7 +115,7 @@ export class ProductListComponent {
     // using local storage to store cart items
     localStorage.setItem('cart', JSON.stringify(this.cartItems));
   }
-  checkout() {
+  goToCart() {
     this.router.navigate(['/cart']);
   }
 }
